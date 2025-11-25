@@ -1,0 +1,136 @@
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: #EFECE3;
+    overflow: hidden;
+    gap: 50px;
+}
+
+.title {
+    color: #4A70A9;
+    text-align: center;
+}
+
+.orbitron-regular {
+               font-family: "Orbitron", sans-serif;
+               font-optical-sizing: auto;
+               font-weight: 500;
+               font-style: normal;
+           }
+
+.flex-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    gap: 50px;
+
+}
+
+.footer-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    margin-top: auto;
+    padding: 0;
+}
+
+footer {
+    align-items: flex-end;
+    margin: 0;
+    padding: 0;
+    color: #4A70A9
+}
+
+#canvas {
+    display: none;
+    aspect-ratio: auto 320 / 240;
+}
+
+video {
+    width: 100%;
+    height: 360px;
+    aspect-ratio: 360 / 270;
+    border: #4A70A9 solid 5px;
+}
+
+.output {
+    width: 100%;
+    height: 360px;
+    aspect-ratio: 360 / 270;
+    border: #4A70A9 solid 5px;
+}
+
+.output img {
+    width: 100%;
+    height: 360px;
+    aspect-ratio: 360 / 270;
+}
+
+h2 {
+    margin-top: 0;
+    padding: 0;
+}
+
+.canvas-container {
+    align-self: flex-start;
+}
+
+.camera-container {
+    position: relative;
+    align-self: flex-start;
+}
+
+.overlay-container {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    width: 100%;
+}
+
+#player-choice {
+    display: none;
+    position: absolute;
+    width: 100%;
+    height: 360px;
+    aspect-ratio: 360 / 270;
+}
+
+.camera-buttons {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+#start-button {
+    padding: 15px 32px;
+    border: #8FABD4 1px solid;
+    border-radius: 10px;
+    text-decoration: none;
+    background-color: #8FABD4;
+    color: white;
+    font-family: sans-serif;
+}
+
+#overlay-text {
+    display: none;
+    text-align: center;
+    color: #EFECE3;
+}
+
+#status-text {
+    display: none;
+    color: red;
+}
+
+#winner-text {
+    margin-top: 0;
+    display: none;
+}
+

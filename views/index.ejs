@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>AI: Rock Paper Scissors</title>
+    <link rel="stylesheet" href="/styles/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap" rel="stylesheet">
+</head>
+<body>
+<h1 class="title orbitron-regular">AI: Rock Paper Scissors!</h1>
+
+<div class="flex-container">
+    <div class="camera-container">
+        <img id="player-choice" src="/images/rps-paper.svg" alt="player choice"/>
+        <div class="overlay-container">
+            <h1 id="overlay-text" class="orbitron-regular title">Running Model...</h1>
+        </div>
+        <video id="video">Video stream is not available</video>
+    </div>
+    <div class="canvas-container">
+        <canvas id="canvas"></canvas>
+        <div class="output">
+            <img id="computer-choice" src="/images/computer.svg" alt="computer-choice"/>
+        </div>
+    </div>
+</div>
+<div class="camera-buttons">
+    <button id="start-button">Play</button>
+    <p id="status-text">This is the text</p>
+    <h1 id="winner-text" class="title orbitron-regular">This is some text</h1>
+</div>
+<div class="footer-container">
+    <footer>How to play: 1. Press play 2. Choose rock paper or scissors 3. Wait for results | <a href="/">Github</a></footer>
+</div>
+<script src="/script/index.js"></script>
+</body>
+</html>
