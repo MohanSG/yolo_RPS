@@ -3,8 +3,8 @@ body {
     flex-direction: column;
     min-height: 100vh;
     background-color: #EFECE3;
-    overflow: hidden;
-    gap: 50px;
+    margin: 0;
+    gap:50px;
 }
 
 .title {
@@ -32,7 +32,6 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: auto;
     margin-top: auto;
     padding: 0;
 }

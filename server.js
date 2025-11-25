@@ -3,7 +3,7 @@ import { Client } from "@gradio/client"
 import multer from "multer"
 
 const app = express();
-const port = 3000;
+const port = 5000;
 
 app.use(express.static("public"))
 const upload = multer();
